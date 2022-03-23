@@ -1,0 +1,271 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 1200px;
+  font-family: "font", sans-serif;
+}
+
+.list_reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn_reset {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  min-width: 1200px;
+  padding: 0 15px;
+  margin: 0;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.section_descr {
+  margin: 0;
+  margin-bottom: 70px;
+}
+
+
+/* header */
+
+
+.header_container {
+  display: inline-block;
+  margin: 0;
+  margin: 30px 0;
+}
+
+.header_contacts {
+  margin: 0;
+  margin-left: 34px;
+  margin-right: auto;
+  - не работает
+}
+
+
+.container_nav {
+  padding: 27px 45px;
+}
+
+.nav_list_item:not(:last-child) {
+  margin: 0;
+  margin-right: 45px;
+}
+
+.nav_list {
+  margin-right: auto;
+}
+
+.nav_button_1 {
+  margin-right: 80px;
+}
+
+.nav_button_2 {
+  margin-right: 65px;
+}
+
+
+/* Спецпредложения */
+
+.title_2 {
+  margin: 0;
+  margin-left: 40px;
+}
+
+.title_special_offers {
+  margin-bottom: 20px;
+}
+
+.special_offers_img {
+  width: 573px;
+  height: 258px;
+  display: inline-block;
+  margin: 0;
+  padding: 40px;
+  margin-right: 25px;
+}
+
+ul.special_offers_img{
+  margin: 0;
+  margin-left: auto;
+}
+
+.special_offer_img_3 {
+  width: 573px;
+  height: 540px;
+  display: inline-block;
+  margin: 0;
+  padding: 211px 40px 41px 40px;
+}
+
+.special_offers_title{
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.special_offers_text{
+  margin: 0;
+  margin-bottom: 47px;
+}
+
+.special_offers_img_1{
+  margin-bottom: 23px;
+}
+
+/* О нас */
+
+.about_us_title{
+  margin-bottom: 11px;
+}
+
+.about_us_text{
+  margin: 0;
+}
+
+
+/* Услуги */
+
+.title_services{
+  margin-bottom: 20px;
+}
+
+.services_text{
+  margin: 0;
+}
+
+.services_list{
+  flex-wrap: wrap;
+
+}
+
+.services_item {
+  display: inline-block;
+  outline: 1px solid coral;
+  width: 573px;
+  height: 330px;
+  padding: 191px 45px 50px;
+}
+
+.services_item:not(:nth-child(2n)){
+  margin-right: 23px;
+}
+
+.services_item:not(:nth-child(n+2)){
+  margin-bottom: 23px;
+}
+
+
+/* преимущества */
+
+.title_advantage{
+  margin-bottom: 30px;
+}
+
+.advantage_list{
+  display: inline-block;
+  width: 275px;
+  height: 275px;
+  outline: 1px solid coral;
+}
+
+.advantage_text{
+  margin: 0;
+  padding: 116px 42px 41px 45px;
+}
+
+.advantage_list:not(:nth-child(4n)){
+  margin-right: 23px;
+}
+
+.advantage_list:not(:nth-child(n+4)){
+  margin-bottom: 23px;
+}
+
+
+/* Размещение */
+
+.title_placement{
+  margin-bottom: 30px;
+}
+
+.placement_item{
+  display: inline-block;
+  width: 374px;
+  height: 440px;
+  outline: 1px solid coral;
+}
+
+.placement_item:not(:nth-child(3n+3)){
+  margin-right: 23px;
+}
+
+.placement_item:not(:nth-child(n+7)){
+  margin-bottom: 23px;
+}
+
+.placement_reset{
+  margin: 0;
+  margin-bottom: 16px;
+  margin-left: 45px;
+}
+
+.placement_reset_btn{
+  margin: 0;
+  margin-left: 45px;
+}
+
+.price_reset{
+  margin: 0;
+}
+
+.placement_img{
+  margin: 0;
+  margin-bottom: 36px;
+}
+
+.price_2{
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.placement_item{
+  display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.img_9{
+display: inline-block;
+  position: absolute;
+  color: white;
+  left: 54px;
+  bottom: 27px;
+}

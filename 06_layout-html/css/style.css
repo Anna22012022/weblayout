@@ -195,7 +195,6 @@ margin-right: 23px;
 .services_list {
   width: 1170px;
   flex-wrap: wrap;
-  flex-direction: row-reverses;
 }
 
 .services_item {

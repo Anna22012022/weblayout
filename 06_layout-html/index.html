@@ -11,22 +11,21 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="container flex header_container">
-
+  <header class="header container">
+    <div class="header_container flex">
       <a class="header_logo" href="#">
         <img class="header_logo" src="img/logo.svg" alt="logo">
       </a>
-
       <a class="header_contacts" href="tel:+74953225448">
         +7 495 322 54 48
       </a>
+
       <a class="header_button" href="#">
         Личный кабинет
       </a>
     </div>
 
-    <div class="container container_nav section_descr">
+    <div class="container_nav section_descr">
       <nav class="navigation flex">
         <ul class="nav_list list_reset flex">
           <li class="nav_list_item">
@@ -71,15 +70,16 @@
     </div>
   </header>
 
-  <main class="main">
+  <main class="main container">
     <section id="special_offers" class="special_offers">
-      <div class="container section_descr">
-        <div class="special_offers_content">
-          <h2 class="title_2 title_special_offers">
-            Спецпредложения
-          </h2>
-          <ul class=" special_offers_img list_reset special_offers_img_12">
-            <li class="special_offers_img special_offers_img_1">
+      <!-- <div class="section_descr"> -->
+      <div class="special_offers_content section_descr">
+        <h2 class="title_2 title_special_offers">
+          Спецпредложения
+        </h2>
+        <div class="flex special_offers_image">
+          <div class=" special_offers_img_left list_reset flex">
+            <div class="special_offers_img special_offers_img_1">
               <h3 class="special_offers_title">
                 Мальдивские острова
               </h3>
@@ -89,10 +89,12 @@
               <a class="special_offers_link" href="#">
                 Подробнее
               </a>
-            </li>
-            <li class="special_offers_img">
+            </div>
+            <div class="special_offers_img special_offers_img_2">
               <h3 class="special_offers_title">
                 Горящий тур на&nbsp;остров Крит
+
+                Значимость этого настолько очевидна, что консультация наших экспертов помогает  Значимость этого настолько очевидна, что консультация наших экспертов помогает
               </h3>
               <p class="special_offers_text">
                 от&nbsp;30&nbsp;000 р
@@ -100,12 +102,13 @@
               <a class="special_offers_link" href="#">
                 Подробнее
               </a>
-            </li>
-          </ul>
+            </div>
+          </div>
 
-          <div class="special_offer_img_3">
+          <div class="special_offers_img special_offer_img_right">
             <h3 class="special_offers_title special_offers_title_2">
               Номера категории люкс
+              Значимость этого настолько очевидна, что консультация наших экспертов помогаетЗначимость этого настолько очевидна, что консультация наших экспертов помогает
             </h3>
             <p class="special_offers_text">
               от&nbsp;5000 рот 5000 р
@@ -116,10 +119,11 @@
           </div>
         </div>
       </div>
+      <!-- </div> -->
     </section>
 
     <section id="about_us" class="about_us">
-      <div class="about_us container section_descr">
+      <div class="about_us section_descr">
         <h1 class="title_2 about_us_title">
           О&nbsp;нас
         </h1>
@@ -136,11 +140,11 @@
     </section>
 
     <section id="services" class="services">
-      <div class="services container section_descr">
+      <div class="services section_descr">
         <h2 class="title_2 title_services">
           Услуги
         </h2>
-        <ul class="services_list list_reset">
+        <ul class="services_list list_reset flex">
           <li class="services_item ">
             <a href="#">Эксклюзивное обслуживание</a>
             <p class="services_text">
@@ -150,7 +154,6 @@
           <li class="services_item">
             <a href="#">Аренда банкетных залов</a>
             <p class="services_text">
-              Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.
             </p>
           </li>
           <li class="services_item">
@@ -172,11 +175,11 @@
     </section>
 
     <section id="advantages" class="advantages">
-      <div class="advantages container section_descr">
+      <div class="advantages section_descr">
         <h2 class="title_2 title_advantage">
           Преимущества
         </h2>
-        <ul class="advantages list_reset">
+        <ul class="advantages list_reset advantage_li flex">
           <li class="advantage_list ">
             <p class="advantage_text">
               Идейные соображения высшего порядка, а&nbsp;также постоянный количественный рост
@@ -193,7 +196,7 @@
             </p>
           </li>
           <li class="advantage_list ">
-            <p class="advantage_text">
+            <p class="advantage_text ">
               Повседневная практика показывает, что сложившаяся структура организации
             </p>
           </li>
@@ -223,11 +226,11 @@
     </section>
 
     <section id="placement" class="placement">
-      <div class="placement container section_descr">
+      <div class="placement section_descr">
         <h2 class="title_2 title_placement">
           Размещение
         </h2>
-        <ul class="placement_list list_reset">
+        <ul class="placement_list list_reset flex">
           <li class="placement_item">
             <img class="placement_img" src="img/placament_img_1.png" alt="">
             <div class="placement_price  placement_reset flex">
@@ -478,14 +481,11 @@
             </button>
           </li>
           <li class="placement_item placement_item_9">
-            <img src="img/placament_img_9.png" alt="picture">
             <a class="img_9" href="#">Посмотреть все варианты</a>
-
           </li>
         </ul>
       </div>
     </section>
-
   </main>
 
   <footer>

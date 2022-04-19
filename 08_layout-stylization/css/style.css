@@ -151,6 +151,9 @@ color: #CC9933;
 font-size: 16px;
 line-height: 16px;
 color: #666666;
+padding-right: 56px;
+border-right: 1px solid #E1E1E1;
+
 }
 
 .nav_button_1 {
@@ -214,6 +217,7 @@ margin-right: 23px;
   background-repeat: no-repeat;
   background-position: center;
   padding-right: 234px;
+  border-radius: 15px;
 }
 
 .special_offers_img_1{
@@ -232,6 +236,7 @@ margin-right: 23px;
   padding-top: 211px;
   padding-right: 234px;
   background-image: url(../img/special_offers_img_3.jpg);
+  border-radius: 15px;
   background-repeat: no-repeat;
   background-position: center;
 }

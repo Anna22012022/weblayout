@@ -633,8 +633,32 @@ color: #000000;
 padding-right: 20px;
 }
 
+.city_dep{
+  width: 169px;
+}
+
+.country_dep{
+  width: 169px;
+}
+
+.tour_date{
+  width: 121px;
+  padding: 0;
+}
+
+.tour_night{
+  width: 121px;
+  padding: 0;
+}
+
+.tour_tourists{
+  width: 121px;
+  padding: 0;
+}
+
 .city_dep_li{
   width: 189px;
+  padding-right: 20px;
   font-weight: 400;
 font-size: 16px;
 line-height: 16px;
@@ -644,6 +668,7 @@ box-sizing: border-box;
 
 .country_li{
   width: 189px;
+  padding-right: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -652,6 +677,7 @@ box-sizing: border-box;
 
 .date_li{
   width: 141px;
+  padding-right: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -660,6 +686,7 @@ box-sizing: border-box;
 
 .night_li{
   width: 141px;
+  padding-right: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -668,6 +695,7 @@ box-sizing: border-box;
 
 .tourists_li{
   width: 151px;
+  padding-right: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -886,7 +914,7 @@ color: #CC9933;
   padding-right: 99px;
   background-image: url(../img/footer_sun.svg);
   background-repeat: no-repeat;
-  background-position: 263px 115px;
+  background-position: bottom 0 right 100px;
 }
 
 .footer_social_item{
@@ -926,5 +954,14 @@ color: #CC9933;
   background-repeat: no-repeat;
   width: 25px;
   height: 25px;
+}
+
+.footer_link_social{
+  display: block;
+  width: 25PX;
+  height: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 

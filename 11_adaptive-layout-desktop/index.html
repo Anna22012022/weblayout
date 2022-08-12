@@ -11,13 +11,12 @@
 </head>
 
 <body>
-  <header class="header container">
-    <div class="header__container ">
+  <header class="header">
+    <div class="header__container flex">
+      <div class="header__logo logo">
+        <img class="header__logo" src="img/header/header__logo.svg" alt="logo">
+      </div>
       <nav class="header__nav flex">
-        <div class="header__nav-left flex">
-          <img class="header__logo" src="img/header/header__logo.svg" alt="logo">
-          <img class="header__name" src="img/header/header__name.svg" alt="Евклид">
-        </div>
         <ul class="header__list flex">
           <li class="header__list_item list_reset">
             <a href="#" class="header__list_link">
@@ -45,6 +44,7 @@
             </a>
           </li>
         </ul>
+      </nav>
         <div class="header__search">
           <a class="header__search_link" href="#">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,6 @@
             </svg>
           </a>
         </div>
-      </nav>
     </div>
   </header>
 
@@ -87,31 +86,44 @@
           прототип будущего проекта способствует повышению качества экспериментов.
         </p>
         <div class="about-us__block flex">
-          <div class="about-us__block_left">
-            <p class="about-us__block_left_descr">Принимая во&nbsp;внимание показатели успешности, перспективное
-              планирование способствует подготовке и&nbsp;реализации новых принципов.</p>
-            <button class="btn_reset about-us__block_left_btn">
-              Подробнее
-            </button>
+          <div class="about-us__block_left flex">
+              <div class="about-us__block_left-item flex">
+                <p class="about-us__block_left_descr">
+                  Принимая во&nbsp;внимание показатели успешности, перспективное
+                  планирование способствует подготовке и&nbsp;реализации новых принципов.</p>
+                  <button class="btn_reset about-us__block_left_btn">
+                    Подробнее
+                  </button>
+                </div>
           </div>
           <div class="about-us__block_right">
-            <div class="about-us__block_right_1">
-              <h3 class="about-us__block_title-2 ">
-                Консультация с широким активом
-              </h3>
-              <p class="about-us__block_descr">
-                А&nbsp;также свежий взгляд на&nbsp;привычные вещи&nbsp;&mdash; безусловно открывает новые горизонты для
-                как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений.
-              </p>
+            <div class="about-us__block_right-item flex">
+              <picture class="about-us__block_right-item-svg">
+                <img src="img/about-us/about_us_1.svg" alt="">
+              </picture>
+              <div class="about-us__block_right-item-descr">
+                <h3 class="about-us__block_title-2 ">
+                  Консультация с широким активом
+                </h3>
+                <p class="about-us__block_descr">
+                  А&nbsp;также свежий взгляд на&nbsp;привычные вещи&nbsp;&mdash; безусловно открывает новые горизонты для
+                  как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений.
+                </p>
+              </div>
             </div>
-            <div class="about-us__block_right_2">
-              <h3 class="about-us__block_title-2 ">
-                В своём стремлении повысить
-              </h3>
-              <p class="about-us__block_descr">
-                Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный
-                эксперимент проверки прогресса профессионального сообщества.
-              </p>
+
+            <div class="about-us__block_right-item flex">
+              <picture class="about-us__block_right-item-svg">
+                  <img src="img/about-us/about_us_2.svg" alt="">
+              </picture>
+              <div class="about-us__block_right-item-descr">
+                <h3 class="about-us__block_title-2 "> В своём стремлении повысить
+                </h3>
+                <p class="about-us__block_descr">
+                  Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный
+                  эксперимент проверки прогресса профессионального сообщества.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -242,11 +254,10 @@
     </section>
   </main>
 
-  <footer class="footer flex container">
+  <footer class="footer flex">
     <div class="footer__left">
       <div class="flex footer__left_img">
         <img class="footer__left_logo" src="img/footer/footer_logo.svg" alt="">
-        <img class="footer__left_name" src="img/footer/footer_name.svg" alt="">
       </div>
 
       <ul class="footer__left_list">

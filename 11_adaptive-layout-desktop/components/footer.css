@@ -1,5 +1,5 @@
 .footer{
-  background-color: var(--black);
+  background-color: #222222;
   margin: 0;
   padding: 50px 75px;
   justify-content: space-between;
@@ -12,10 +12,6 @@ width: 30%;
 
 .footer__left_logo{
   margin-right: 12px;
-}
-
-.footer__left_img{
-  margin-bottom: 20px;
 }
 
 .footer__left_list{
@@ -126,6 +122,8 @@ opacity: 1;
 .footer__center_input{
   width: 100%;
   background-color: #414141;
+  margin: 0;
+  border: none;
   border-radius: 16px;
   margin-bottom: 25px;
   padding: 14px 24px;
@@ -158,9 +156,9 @@ opacity: 1;
 }
 
 .footer__center_btn{
-  width: 47%;
+  max-width: 269px;
   min-height: 58px;
-  padding: 19px 52px;
+  padding: 19px 50px;
 background-color: var(--orange);
 color: var(--white);
 font-weight: 700;

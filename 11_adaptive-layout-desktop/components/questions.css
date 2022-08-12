@@ -28,65 +28,6 @@ line-height: 32px;
   border-bottom: 1px solid var(--grey);
 }
 
-
-.questions__list_item:hover{
-  color: var(--orange);
-  border-top: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange);
-}
-
-.questions__list_item:last-child:hover{
-  color: var(--orange);
-  border-top: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange);
-}
-
-.questions__list_item:hover +.questions__item__svg{
-  color: var(--orange);
-  border-top: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange);
-}
-
-.questions__list_item:focus{
-  color: var(--orange);
-  border-top: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange);
-}
-
-.questions__list_item:last-child:focus{
-  color: var(--orange);
-  border-top: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange);
-}
-
-.questions__list_item:focus +.questions__item__svg{
-  color: var(--orange);
-  border-top: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange);
-}
-
-.questions__list_item:active{
-color: var(--black);
-  border-top: 1px solid var(--dark-grey);
-  border-bottom: 1px solid var(--dark-grey);
-}
-
-.questions__list_item:last-child:active{
-  color: var(--black);
-  border-top: 1px solid var(--dark-grey);
-  border-bottom: 1px solid var(--dark-grey);
-}
-
-.questions__list_item:active +.questions__item__svg{
-  color: var(--black);
-  border-top: 1px solid var(--dark-grey);
-  border-bottom: 1px solid var(--dark-grey);
-}
-
-
-
-
-
 .questions__item__svg{
 background-color: var(--light_gray);
 width: 50px;
@@ -100,19 +41,11 @@ fill: var(--dark-grey);
 transition: background-color 0.3s ease-in-out, fill 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-
-.questions__item__svg:hover{
-  background-color: var(--orange);
-fill: var(--white);
+.questions__list_item:hover a, .questions__list_item:hover svg, .questions__list_item:hover:last-child{
+  color: var(--orange);/*текст*/
+  border-bottom: 1px solid var(--orange);/*границы из псевдокласса*/
+  fill: var(--orange);/*крестик из "кнопки" развертывания*/
+  background-color: var(--orange);/*заливка из "кнопки" развертывания*/
 }
 
-.questions__item__svg:focus{
- background-color: var(--orange);
- fill: var(--white);
-}
 
-.questions__item__svg:active{
-background-color: var(--light_gray);
-fill: var(--dark-grey);
-transform: rotate(45deg);
-}

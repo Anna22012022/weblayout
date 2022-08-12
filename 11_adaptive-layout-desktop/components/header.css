@@ -3,11 +3,14 @@ header{
 border-radius: 0px 0px 32px 32px;
 }
 
-.header__nav{
-  min-height: 100px;
+
+.header__container{
   align-items: center;
   justify-content: center;
-  padding: 0 75px;
+  padding: 14px 40px;
+}
+
+.header__nav{
 }
 
 .header__list{
@@ -15,11 +18,7 @@ border-radius: 0px 0px 32px 32px;
 }
 
 .header__logo{
-  margin-right: 15px;
-}
-.header__nav-left{
-  align-items: center;
-  justify-content: center;
+margin-right: auto;
 }
 
 
@@ -72,6 +71,7 @@ outline: none;
 
 
 .header__search_link{
+  outline: none;
   fill: var(--black);
   stroke: var(--black);
   transition: fill 0.3s ease, stroke 0.3s ease, outline 0.3s ease;

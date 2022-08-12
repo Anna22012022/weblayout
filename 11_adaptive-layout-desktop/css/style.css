@@ -36,7 +36,7 @@ img {
 
 body {
   min-width: 320px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   background-color: var(--white);
 }
 
@@ -49,13 +49,10 @@ ul{
   margin: 0;
   padding: 0;
   list-style: none;
-  border: none;
 }
 
 .btn_reset {
-  background-color: transparent;
   cursor: pointer;
-padding: 0;
 border: none;
 border-radius: 16px;
 }
@@ -112,5 +109,10 @@ p{
 
 .section_descr{
   padding: 0 75px;
+}
+
+.logo{
+  max-width: 225px;
+  max-height: 72px;
 }
 

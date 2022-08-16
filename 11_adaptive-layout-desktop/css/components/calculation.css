@@ -1,10 +1,10 @@
 
-.calculation_div{
+.calculation__div{
   padding: 100px 80px;
   margin: 50px 0;
 }
 
-.calculation__title{
+.calculation__div_title{
   font-weight: 800;
 font-size: 70px;
 line-height: 85px;
@@ -14,7 +14,7 @@ margin: 0;
 margin-bottom: 24px;
 }
 
-.calculation__descr{
+.calculation__div_descr{
 color: var(--white);
 max-width: 837px;
 margin: 0;
@@ -22,7 +22,7 @@ margin-bottom: 90px;
 font-size: 24px;
 }
 
-.calculation__btn{
+.calculation__div_btn{
   min-width: 280px;
   min-height: 78px;
   color: var(--white);
@@ -34,20 +34,20 @@ font-size: 24px;
   transition: background-color 0.3s ease;
 }
 
-.calculation__btn:hover{
+.calculation__div_btn:hover{
   background-color: var(--light_orange);
 }
 
-.calculation__btn:focus{
+.calculation__div_btn:focus{
   background-color: var(--light_orange);
 }
 
-.calculation__btn:active{
+.calculation__div_btn:active{
   background-color: var(--dark_orange);
 }
 
-.calculation_div{
-background-image: url(../img/canculation/canculation_img.jpg);
+.calculation__div{
+background-image: url(../../img/canculation/canculation_img.jpg);
 min-height: 620px;
 border-radius: 32px;
 background-repeat: no-repeat;

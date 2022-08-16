@@ -21,14 +21,15 @@
   margin-right: 85px;
 }
 
-.work__list_btn{
+.work__list_item-btn{
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
+background-color: var(--white);
 transition: color 0.3s ease, outline 0.3s ease;
 }
 
-.work__list_btn::after{
+.work__list_item-btn::after{
   content: "";
   position: absolute;
   top: -5px;
@@ -39,25 +40,26 @@ transition: color 0.3s ease, outline 0.3s ease;
   opacity: 0;
 }
 
-.work__list_btn:hover{
+.work__list_item-btn:hover{
   color: var(--orange);
 }
 
-.work__list_btn:focus::after{
+
+.work__list_item-btn:focus::after{
 opacity: 1;
 }
 
-.work__list_btn:active::after{
+.work__list_item-btn:active::after{
   opacity: 0;
 }
 
-.work__list_btn:active{
+.work__list_item-btn:active{
   color: var(--dark_orange);
 }
 
 
 
-.work__cons_title-3{
+.work__cons_left-title{
   margin-bottom: 8px;
 }
 
@@ -67,14 +69,14 @@ opacity: 1;
   margin-right: 142px;
 }
 
-.work__cons_descr{
+.work__cons_left-descr{
   margin-bottom: 50px;
   font-weight: 400;
 font-size: 16px;
 line-height: 32px;
 }
 
-.work__cons_btn_1{
+.work__cons_left-btn-1{
   background-color: var(--orange);
   color: var(--white);
   width: 175px;
@@ -86,19 +88,19 @@ line-height: 20px;
 transition: background-color 0.3s ease;
 }
 
-.work__cons_btn_1:hover{
+.work__cons_left-btn-1:hover{
   background-color: var(--light_orange);
 }
 
-.work__cons_btn_1:focus{
+.work__cons_left-btn-1:focus{
   background-color: var(--light_orange);
 }
 
-.work__cons_btn_2:active{
+.work__cons_left-btn-1:active{
   background-color: var(--dark_orange);
 }
 
-.work__cons_btn_2{
+.work__cons_left-btn-2{
   width: 145px;
 height: 60px;
 font-weight: 400;
@@ -110,25 +112,25 @@ outline: 1px solid var(--black);
 transition: color 0.3s ease, outline 0.3s ease, background-color 0.3s ease ;
 }
 
-.work__cons_btn_2:hover{
+.work__cons_left-btn-2:hover{
   background-color: var(--dark-grey);
   outline: 1px solid var(--dark-grey);
   color: var(--white);
 }
 
-.work__cons_btn_2:focus{
+.work__cons_left-btn-2:focus{
   background-color: var(--dark-grey);
   outline: 1px solid var(--dark-grey);
   color: var(--white);
 }
 
-.work__cons_btn_2:active{
+.work__cons_left-btn-2:active{
   background-color: var(--black);
   outline: 1px solid var(--black);
   color: var(--white);
 }
 
-.work__cons_img{
+.work__cons_right-img{
   width: 870px;
   height: 460px;
   border-radius: 32px;

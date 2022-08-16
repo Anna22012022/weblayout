@@ -1,16 +1,18 @@
-@import '../components/fonts.css';
+@import '../css/normalize.css';
 
-@import '../components/header.css';
+@import './components/fonts.css';
 
-@import '../components/calculation.css';
+@import './components/header.css';
 
-@import '../components/about-us.css';
+@import './components/calculation.css';
 
-@import '../components/work.css';
+@import './components/about-us.css';
 
-@import '../components/questions.css';
+@import './components/work.css';
 
-@import '../components/footer.css';
+@import './components/questions.css';
+
+@import './components/footer.css';
 
 html {
   box-sizing: border-box;
@@ -20,6 +22,17 @@ html {
 ::before,
 ::after {
   box-sizing: inherit;
+}
+
+:root{
+--black:#333333;
+--white:#FFFFFF;
+--light_orange:#F7B045;
+--orange:#FF9900;
+--dark_orange:#E1670E;
+--grey:#CACACA;
+--light_gray:#ECECEC;
+--dark-grey:#666666;
 }
 
 a {
@@ -96,16 +109,6 @@ p{
   padding: 0;
 }
 
-:root{
---black:#333333;
---white:#FFFFFF;
---light_orange:#F7B045;
---orange:#FF9900;
---dark_orange:#E1670E;
---grey:#CACACA;
---light_gray:#ECECEC;
---dark-grey:#666666;
-}
 
 .section_descr{
   padding: 0 75px;

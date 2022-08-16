@@ -3,14 +3,10 @@ header{
 border-radius: 0px 0px 32px 32px;
 }
 
-
 .header__container{
   align-items: center;
   justify-content: center;
-  padding: 14px 40px;
-}
-
-.header__nav{
+  padding: 14px 40px 14px 75px;
 }
 
 .header__list{
@@ -20,8 +16,6 @@ border-radius: 0px 0px 32px 32px;
 .header__logo{
 margin-right: auto;
 }
-
-
 
 .header__list_item{
   font-weight: 600;
@@ -36,7 +30,7 @@ margin-right: auto;
   margin-right: 76px;
 }
 
-.header__list_link{
+.header__list_item-link{
 padding: 5px;
 transition: background-color 0.3s ease-in-out, outline 0.3s ease-in-out;
 }
@@ -66,9 +60,6 @@ outline: none;
 .header__list_link:active::after{
   background-color: var(--dark_orange);
 }
-
-
-
 
 .header__search_link{
   outline: none;

@@ -10,7 +10,7 @@
 width: 30%;
 }
 
-.footer__left_logo{
+.footer__left_img-logo{
   margin-right: 12px;
 }
 
@@ -23,79 +23,76 @@ margin-bottom: 90px;
 
 
 
-.footer__left_social_list{
+.social__list{
   margin: 0;
   padding: 0;
 }
 
-.footer__left_item_link{
+.footer__left_list-item-link{
   font-weight: 600;
 font-size: 18px;
 line-height: 36px;
 color: var(--grey);
 }
 
-.footer__left_item_link{
+.footer__left_list-item-link{
   padding: 5px;
   transition: color 0.3s ease-in-out, outline 0.3s ease-in-out;
   }
 
-  .footer__left_item_link:hover{
+  .footer__left_list-item-link:hover{
     color: var(--orange);
   }
 
-  .footer__left_item_link:focus{
+  .footer__left_list-item-link:focus{
     outline: 2px solid var(--orange);
   }
 
-  .footer__left_item_link:active{
+  .footer__left_list-item-link:active{
     color: var(--dark_orange);
     outline: none;
   }
 
-.footer__left_social_item{
+.social__list_item{
   margin: 0;
   padding: 0;
 }
 
-.footer__left_social_item_svg{
+.social__list_item-link-svg{
   fill: #666;
 }
 
-.footer__left_social_item_svg{
-  margin-right: 25px;
+.social__list_item-link-svg{
+  padding: 5px;
+  max-width: 70px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
 }
 
-.footer__left_social_item{
-  position: relative;
-}
-
-.footer__left_social_item_link{
-  max-width: 60px;
-  max-height: 60px;
+.social__list_item-link{
+  display: inline-block;
   transition: fill 0.3s ease;
 }
 
-.footer__left_social_item_link::after svg{
-  content: '';
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  outline: 2px solid var(--orange);
-  opacity: 0;
+.social__list_item:not(:last-child){
+  margin-right: 25px;
 }
 
-.footer__left_social_item_link:hover svg{
+.social__list_item-link:hover svg{
   fill: var(--orange);
 }
 
-.footer__left_social_item_link:focus::after svg{
-opacity: 1;
+.social__list_item-link:focus {
+outline: 2px solid var(--orange);
 }
 
-.footer__left_social_item_link:active svg{
+.social__list_item-link:active svg{
   fill: var(--dark_orange);
+}
+
+.social__list_item-link:active{
+  outline: none;
 }
 
 
@@ -110,16 +107,12 @@ opacity: 1;
   margin-bottom: 23px;
 }
 
-.footer__center_survey{
-
-}
-
-.footer__center_list{
+.survey{
   margin: 0;
   padding: 0;
 }
 
-.footer__center_input{
+.survey__item_input{
   width: 100%;
   background-color: #414141;
   margin: 0;
@@ -131,31 +124,33 @@ opacity: 1;
   transition: background-color 0.3s ease-in-out;
 }
 
-.footer__center_input:hover{
+.survey__item_input:hover{
   background-color: var(--dark-grey);
 }
 
-.footer__center_input:focus{
+.survey__item_input:focus{
   background-color: var(--dark-grey);
+  outline: none;
 }
 
-.footer__center_input:active{
+.survey__item_input:active{
   background-color: var(--dark-grey);
+  outline: none;
 }
 
-.footer__center_input_name{
+.survey__item_input{
   min-height: 60px;
 }
 
-.footer__center_input_mail{
+.survey__item_input-mail{
   min-height: 60px;
 }
 
-.footer__center_input_messages{
+.survey__item_input-messages{
   height: 150px;
 }
 
-.footer__center_btn{
+.footer__center_bottom-btn{
   max-width: 269px;
   min-height: 58px;
   padding: 19px 50px;
@@ -168,20 +163,20 @@ margin-right: 22px;
 transition: background-color 0.3s ease-in-out;
 }
 
-.footer__center_btn:hover{
-  background-color: var(--orange);
+.footer__center_bottom-btn:hover{
+  background-color: var(--light_orange);
 }
 
-.footer__center_btn:focus{
-  background-color: var(--orange);
+.footer__center_bottom-btn:focus{
+  background-color: var(--light_orange);
 }
 
-.footer__center_btn:active{
+.footer__center_bottom-btn:active{
   background-color: var(--dark_orange);
 }
 
 
-.application__checkbox{
+.footer__center_checkbox{
 position: relative;
 cursor: pointer;
 font-weight: 400;
@@ -209,8 +204,8 @@ padding-left: 18px;
 }
 
 
-.application__checkbox input:checked ~ .checkmark{
-  background-image: url(../img/footer/footer_check.svg);
+.footer__center_checkbox input:checked ~ .checkmark{
+  background-image: url(../../img/footer/footer_check.svg);
   background-position: center center;
   background-repeat: no-repeat;
 }

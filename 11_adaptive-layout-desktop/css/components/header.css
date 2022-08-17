@@ -32,7 +32,7 @@ margin-right: auto;
 
 .header__list_item-link{
 padding: 5px;
-transition: background-color 0.3s ease-in-out, outline 0.3s ease-in-out;
+transition: background-color 0.3s ease-in-out, outline 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .header__list_link::after{

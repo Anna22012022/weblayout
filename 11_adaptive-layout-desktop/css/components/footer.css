@@ -72,7 +72,7 @@ color: var(--grey);
 
 .social__list_item-link{
   display: inline-block;
-  transition: fill 0.3s ease;
+  transition: fill 0.3s ease, outline 0.3s ease;
 }
 
 .social__list_item:not(:last-child){

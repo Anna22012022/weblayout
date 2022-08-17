@@ -21,7 +21,7 @@ line-height: 32px;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  transition: color 0.3s ease, border-top 0.3s ease, border-bottom 0.3s ease;
+  transition: color 0.3s ease, border-top 0.3s ease, border-bottom 0.3s ease, background-color 0.3s ease, fill 0.3s ease;
 }
 
 .questions__list_item:last-child{
@@ -43,7 +43,6 @@ fill: var(--dark-grey);
 .questions__list_item:hover{
   color: var(--orange);
   border-top: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange);
 }
 
 .questions__list_item:hover svg{
@@ -51,15 +50,26 @@ fill: var(--dark-grey);
   background-color: var(--orange);
 }
 
+.questions__list_item:hover + .questions__list_item{
+  border-top: 1px solid var(--orange);
+}
+
+.questions__list_item:last-child:hover{
+  border-bottom: 1px solid var(--orange);
+}
+
 .questions__list_item:focus{
   color: var(--orange);
   border-top: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange);
 }
 
 .questions__list_item:focus svg{
   fill: var(--white);
   background-color: var(--orange);
+}
+
+.questions__list_item:last-child:focus{
+  border-bottom: 1px solid var(--orange);
 }
 
 

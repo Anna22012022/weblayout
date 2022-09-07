@@ -1,0 +1,121 @@
+@import '../css/normalize.css';
+
+@import './components/fonts.css';
+
+@import './components/header.css';
+
+@import './components/calculation.css';
+
+@import './components/about-us.css';
+
+@import './components/work.css';
+
+@import './components/questions.css';
+
+@import './components/footer.css';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+:root{
+--black:#333333;
+--white:#FFFFFF;
+--light_orange:#F7B045;
+--orange:#FF9900;
+--dark_orange:#E1670E;
+--grey:#CACACA;
+--light_gray:#ECECEC;
+--dark-grey:#666666;
+}
+
+a {
+  color: inherit;
+text-decoration: none;
+margin: 0;
+padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body {
+  min-width: 320px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--white);
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.list_reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn_reset {
+  cursor: pointer;
+border: none;
+border-radius: 16px;
+}
+
+  .flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1920px;
+    margin:  auto;
+}
+
+
+h1{
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+font-size: 70px;
+line-height: 85px;
+color: var(--white);
+}
+
+h2{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+font-size: 48px;
+line-height: 59px;
+}
+
+h3{
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+font-size: 24px;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+
+.section_descr{
+  padding: 0 75px;
+}
+
+.logo{
+  max-width: 225px;
+  max-height: 72px;
+}
+

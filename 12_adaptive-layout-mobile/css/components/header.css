@@ -9,6 +9,10 @@ border-radius: 0px 0px 32px 32px;
   padding: 14px 40px 14px 75px;
 }
 
+.burger{
+  display: none;
+}
+
 .header__list{
   margin-left: auto;
 }

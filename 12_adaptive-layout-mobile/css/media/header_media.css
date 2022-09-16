@@ -1,15 +1,16 @@
-@media (max-width:1024px){
+@media (max-width:1280px){
 
   .header__list{
     display: none;
   }
 
   .header__container{
-    justify-content: space-between;
     padding: 26px 50px;
+    margin-bottom: 40px;
   }
 
   .burger{
+    margin-right: auto;
     display: block;
     position: relative;
     cursor: pointer;
@@ -44,19 +45,31 @@ max-height: 23px;
 
   .header__logo{
     margin: 0;
-    width: 150px;
-    height: 48px;
+    max-width: 150px;
+    max-height: 48px;
   }
 
   .header__search{
-    /* margin: 0; */
+    margin-left: auto;
   }
+}
 
 
+@media (max-width:768px){
+  .header__container{
+    padding: 10px 50px;
+    margin-bottom: 30px;
+  }
+}
 
 
+@media (max-width:400px){
 
+.header__container{
+  padding: 17px 15px;
+}
 
-
-
+.header_logo{
+  max-width: 110px;
+}
 }

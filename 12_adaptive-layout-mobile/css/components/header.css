@@ -6,7 +6,8 @@ border-radius: 0px 0px 32px 32px;
 .header__container{
   align-items: center;
   justify-content: center;
-  padding: 14px 40px 14px 75px;
+  padding: 14px 75px;
+  margin-bottom: 50px;
 }
 
 .burger{
@@ -73,7 +74,7 @@ outline: none;
 }
 
 .header__search{
-  margin-left: 260px;
+  margin-left: auto;
   position: relative;
 }
 

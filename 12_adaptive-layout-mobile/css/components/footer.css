@@ -109,19 +109,24 @@ outline: 2px solid var(--orange);
 
 .survey{
   margin: 0;
+  margin-bottom: 32px;
   padding: 0;
 }
 
 .survey__item_input{
+  display: inline-block;
   width: 100%;
   background-color: #414141;
   margin: 0;
   border: none;
   border-radius: 16px;
-  margin-bottom: 25px;
   padding: 14px 24px;
   color: var(--white);
   transition: background-color 0.3s ease-in-out;
+}
+
+.survey__item:not(:last-child){
+  margin-bottom: 25px;
 }
 
 .survey__item_input:hover{

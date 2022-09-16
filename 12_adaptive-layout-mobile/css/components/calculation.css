@@ -1,7 +1,12 @@
 
 .calculation__div{
   padding: 100px 80px;
-  margin: 50px 0;
+  margin-bottom: 50px;
+  background-image: url(../../img/canculation/canculation_img.jpg);
+  background-size: cover;
+border-radius: 32px;
+background-repeat: no-repeat;
+background-position: center;
 }
 
 .calculation__div_title{
@@ -23,8 +28,7 @@ font-size: 24px;
 }
 
 .calculation__div_btn{
-  min-width: 280px;
-  min-height: 78px;
+  padding: 25px 39px;
   color: var(--white);
   background-color: var(--orange);
   border-radius: 16px;
@@ -44,12 +48,4 @@ font-size: 24px;
 
 .calculation__div_btn:active{
   background-color: var(--dark_orange);
-}
-
-.calculation__div{
-background-image: url(../../img/canculation/canculation_img.jpg);
-min-height: 620px;
-border-radius: 32px;
-background-repeat: no-repeat;
-background-position: center;
 }

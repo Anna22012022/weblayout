@@ -5,42 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/media/320/about__us_320.css">
-  <link rel="stylesheet" href="css/media/320/calculation_320.css">
-  <link rel="stylesheet" href="css/media/320/footer_320.css">
-  <link rel="stylesheet" href="css/media/320/header_320.css">
-  <link rel="stylesheet" href="css/media/320/questions_320.css">
-  <link rel="stylesheet" href="css/media/320/work_320.css">
-
-  <link rel="stylesheet" href="css/media/768/about__us_768.css">
-  <link rel="stylesheet" href="css/media/768/calculation_768.css">
-  <link rel="stylesheet" href="css/media/768/footer_768.css">
-  <link rel="stylesheet" href="css/media/768/header_768.css">
-  <link rel="stylesheet" href="css/media/768/questions_768.css">
-  <link rel="stylesheet" href="css/media/768/work_768.css">
-
-  <link rel="stylesheet" href="css/media/1024/about__us_1024.css">
-  <link rel="stylesheet" href="css/media/1024/calculation_1024.css">
-  <link rel="stylesheet" href="css/media/1024/footer_1024.css">
-  <link rel="stylesheet" href="css/media/1024/header_1024.css">
-  <link rel="stylesheet" href="css/media/1024/questions_1024.css">
-  <link rel="stylesheet" href="css/media/1024/work_1024.css">
+  <link rel="stylesheet" href="css/media/header_media.css">
+  <link rel="stylesheet" href="css/media/canculation_media.css">
+<link rel="stylesheet" href="css/media/about-us_media.css">
+<link rel="stylesheet" href="css/media/work_media.css">
+<link rel="stylesheet" href="css/media/questions_media.css">
+<link rel="stylesheet" href="css/media/footer_media.css">
   <title>Евклид</title>
   <link rel="icon" href="img/Favicon.png">
 </head>
 
 <body>
-  <header class="header">
+  <header class="header ">
     <div class="header__container flex">
-      <button class=" burger">
-        <span class="burger__line"></span>
-        <span class="burger__line"></span>
-        <span class="burger__line"></span>
-      </button>
-      <div class="header__logo logo">
-        <img class="header__logo" src="img/header/header__logo.svg" alt="logo">
-      </div>
-      <nav class="header__nav flex">
+        <button class=" burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+        <div class="header__logo logo">
+          <img class="header__logo" src="img/header/header__logo.svg" alt="logo">
+        </div>
+        <nav class="header__nav flex">
         <ul class="header__list flex">
           <li class="header__list_item list_reset">
             <a href="#" class="header__list_item-link">
@@ -83,18 +69,18 @@
     </div>
   </header>
 
-  <main class="main container">
-    <section class="section_descr calculation container ">
+ <main class="main container">
+    <section class="section_descr calculation container">
       <div class="calculation__div">
         <h1 class="calculation__div_title">Проектные решения любой сложности</h1>
         <p class="calculation__div_descr">Есть над чем задуматься: базовые сценарии поведения пользователей
           и&nbsp;по&nbsp;сей день остаются уделом
           проектантов</p>
-        <button class="calculation__div_btn btn_reset">Заказать расчет</button>
+        <button class="calculation__div_btn btn_reset">Заказать&nbsp;расчет</button>
       </div>
     </section>
 
-    <section class="about-us section_descr">
+     <section class="about-us section_descr">
       <div>
         <h2 class="section_title about-us__title">
           О нас
@@ -154,7 +140,7 @@
       </div>
     </section>
 
-    <section class="work section_descr">
+  <section class="work section_descr">
       <h2 class="work__title section_title">
         Как мы работаем
       </h2>
@@ -278,7 +264,7 @@
     </section>
   </main>
 
-  <footer class="footer flex">
+  <footer class="footer flex container">
     <div class="footer__left">
       <div class="flex footer__left_img">
         <img class="footer__left_img-logo logo" src="./img/footer/footer__logo.svg" alt="">
@@ -356,10 +342,10 @@
             <input class="survey__item_input  survey__item_input-name" type="text" name="name"
               placeholder="Фамилия, имя и отчество*">
           </li>
-          <li class="list_reset survey_item">
+          <li class="list_reset survey__item">
             <input class="survey__item_input survey__item_input-mail" type="text" placeholder="E-mail*">
           </li>
-          <li class="list_reset survey_item">
+          <li class="list_reset survey__item">
             <input class="survey__item_input  survey__item_input-messages" type="text"
               placeholder="Сообщение">
           </li>

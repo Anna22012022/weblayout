@@ -1,5 +1,9 @@
 .footer{
   background-color: #222222;
+
+}
+
+.footer__container{
   margin: 0;
   padding: 50px 75px;
   justify-content: space-between;

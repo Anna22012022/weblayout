@@ -1,11 +1,22 @@
+@media (max-width:1630px){
+  .survey__item_input{
+    border-radius: 16px;
+  }
+
+  .btn_reset{
+    border-radius: 16px;
+  }
+}
+
 @media (max-width:1420px){
+
+  .footer__container{
+    padding: 50px;
+  }
   .footer__right{
     display: none;
   }
 
-  .footer{
-    padding: 50px;
-  }
 
   .footer__left{
 width: 47%;
@@ -18,8 +29,8 @@ width: 47%;
 }
 
 
-@media(max-width:1194px){
-  .footer{
+@media(max-width:1172px){
+  .footer__container{
     flex-direction: column-reverse;
     align-items: left;
   }
@@ -46,11 +57,24 @@ width: 47%;
   }
 }
 
-@media(max-width:671px){
+@media (max-width:760px){
+  .survey__item_input{
+    border-radius: 8px;
+  }
+
+  .btn_reset{
+    border-radius: 8px;
+  }
+}
+
+@media(max-width:718px){
 
   .footer{
-    padding: 33px 15px;
     align-items: center;
+  }
+
+  .footer__container{
+    padding: 33px 15px;
   }
 
   .footer__left{
@@ -96,6 +120,10 @@ margin-bottom: 20px;
 
  .footer__center_checkbox{
   line-height: 18px;
+ }
+
+ .survey__item_input{
+  border-radius: 16px;
  }
 
 

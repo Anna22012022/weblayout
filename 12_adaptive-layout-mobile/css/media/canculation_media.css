@@ -1,3 +1,14 @@
+
+@media (max-width:1460px){
+  .calculation__div{
+    border-radius: 24px;
+  }
+
+  .btn_reset{
+    border-radius: 16px;
+  }
+}
+
 @media(max-width:1220px){
   .section_descr{
     padding: 0 50px;
@@ -31,6 +42,16 @@ margin-bottom: 60px;
 
 }
 
+@media (max-width:760px){
+  .calculation__div{
+    border-radius: 16px;
+  }
+
+  .btn_reset{
+    border-radius: 8px;
+  }
+}
+
 @media(max-width:768px){
 
 
@@ -52,7 +73,9 @@ line-height: 24px;
 
 @media(max-width:760px){
 
-
+  .btn_reset{
+    border-radius: 8px;
+  }
 
 .calculation__div{
   padding: 60px 22px;
@@ -60,6 +83,7 @@ line-height: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 16px;
 }
 
 .calculation__div_title{

@@ -48,6 +48,14 @@
   .questions__list_item-svg{
     width: 30px;
     height: 30px;
+    padding: 15px;
+  }
+
+  .questions__list_item-plus{
+    width: 18px;
+    height: 18px;
+    top: 6px;
+    left: 6px;
   }
 
   .questions{

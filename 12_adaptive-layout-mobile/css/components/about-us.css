@@ -27,6 +27,9 @@
 align-items: flex-end;
 }
 
+.about-us__invisible{
+  display: none;
+}
 
 .about-us__block_left-item{
   background-color: #00000080;
@@ -37,8 +40,6 @@ align-items: flex-end;
   align-items: center;
 }
 .about-us__block_left-descr{
-  bottom: 50px;
-  left: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 32px;

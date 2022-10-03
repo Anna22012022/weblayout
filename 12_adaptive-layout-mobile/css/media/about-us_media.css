@@ -45,7 +45,7 @@
   .about-us__block_left{
     max-width: 100%;
     width: 100%;
-    min-height: 640px;
+    height: 640px;
     margin-bottom: 32px;
     margin-right: 0;
     background-size: cover;
@@ -120,11 +120,12 @@ margin-bottom: 14px;
 }
 
 .about-us__block_left{
+  height: 400px;
   background-position: top;
   background-size: cover;
-  max-height: 520px;
   margin-bottom: 32px;
   border-radius: 16px;
+
 }
 
 .about-us__block_left{
@@ -195,6 +196,16 @@ line-height: 28px;
   margin: 0;
   margin-bottom: 12px;
 }
+  }
 
+  @media(max-width:560px){
+    .about-us__block_left{
+      height: 300px;
+    }
+  }
 
+  @media(max-width:420px){
+    .about-us__block_left{
+      height: 200px;
+    }
   }

@@ -18,7 +18,7 @@
 <body>
   <header class="header ">
     <div class="header__container container flex">
-      <button class=" burger">
+      <button aria-label="бургерное меню" tabindex="0" class=" burger">
         <span class="burger__line"></span>
         <span class="burger__line"></span>
         <span class="burger__line"></span>
@@ -26,37 +26,38 @@
       <div class="header__logo logo">
         <img class="header__logo" src="img/header/header__logo.svg" alt="logo">
       </div>
-      <nav class="header__nav flex">
+      <nav aria-label="Навигационное меню" class="header__nav flex">
         <ul class="header__list flex">
-          <li class="header__list_item list_reset">
+          <li tabindex="0" class="header__list_item list_reset">
             <a href="#" class="header__list_item-link">
               О нас
             </a>
           </li>
-          <li class="header__list_item list_reset">
+          <li tabindex="0" class="header__list_item list_reset">
             <a href="#" class="header__list_item-link">
               Проекты
             </a>
           </li>
-          <li class="header__list_item list_reset">
+          <li tabindex="0" class="header__list_item list_reset">
             <a href="#" class="header__list_item-link">
               Этапы
             </a>
           </li>
-          <li class="header__list_item list_reset">
+          <li tabindex="0" class="header__list_item list_reset">
             <a href="#" class="header__list_item-link">
               Отзывы
             </a>
           </li>
-          <li class="header__list_item list_reset">
+          <li tabindex="0" class="header__list_item list_reset">
             <a href="#" class="header__list_item-link">
               Контакты
             </a>
           </li>
         </ul>
       </nav>
+
       <div class="header__search">
-        <a class="header__search_link" href="#">
+        <a tabindex="0" aria-label="кнопка поиска" class="header__search_link" href="#">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="7.56126" height="1.89031"
               transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" />
@@ -219,9 +220,12 @@
           <a href="#" class="questions__list-item-link ">
             Из чего формируется конечная стоимость проекта?
           </a>
-          <div class="questions__list_item-svg">
-            <svg class="questions__list_item-plus" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0571 15.0571L15.0571 -1.31634e-06L15.9429 -1.31634e-06L15.9429 15.0571L23.8835 15.0571L31 15.0571L31 15.9429L15.9429 15.9429L15.9429 31L15.0571 31L15.0571 15.9429L6.23563e-06 15.9429L6.31306e-06 15.0571L15.0571 15.0571Z" fill="black"/>
+          <div tabindex="0" aria-label="Кнопка посмотреть больше" class="questions__list_item-svg">
+            <svg class="questions__list_item-plus" width="31" height="31" viewBox="0 0 31 31" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M15.0571 15.0571L15.0571 -1.31634e-06L15.9429 -1.31634e-06L15.9429 15.0571L23.8835 15.0571L31 15.0571L31 15.9429L15.9429 15.9429L15.9429 31L15.0571 31L15.0571 15.9429L6.23563e-06 15.9429L6.31306e-06 15.0571L15.0571 15.0571Z"
+                fill="black" />
             </svg>
           </div>
         </li>
@@ -229,9 +233,12 @@
           <a href="#" class="questions__list-item-link ">
             У меня есть свой проект. Сможем ли мы его доработать / реализовать?
           </a>
-          <div class="questions__list_item-svg">
-            <svg class="questions__list_item-plus" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0571 15.0571L15.0571 -1.31634e-06L15.9429 -1.31634e-06L15.9429 15.0571L23.8835 15.0571L31 15.0571L31 15.9429L15.9429 15.9429L15.9429 31L15.0571 31L15.0571 15.9429L6.23563e-06 15.9429L6.31306e-06 15.0571L15.0571 15.0571Z" fill="black"/>
+          <div tabindex="0" aria-label="Кнопка посмотреть больше" class="questions__list_item-svg">
+            <svg class="questions__list_item-plus" width="31" height="31" viewBox="0 0 31 31" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M15.0571 15.0571L15.0571 -1.31634e-06L15.9429 -1.31634e-06L15.9429 15.0571L23.8835 15.0571L31 15.0571L31 15.9429L15.9429 15.9429L15.9429 31L15.0571 31L15.0571 15.9429L6.23563e-06 15.9429L6.31306e-06 15.0571L15.0571 15.0571Z"
+                fill="black" />
             </svg>
           </div>
 
@@ -240,9 +247,12 @@
           <a href="#" class="questions__list-item-link ">
             Я выбираю между разными компаниями. В чём ваше отличие?
           </a>
-          <div class="questions__list_item-svg">
-            <svg class="questions__list_item-plus" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0571 15.0571L15.0571 -1.31634e-06L15.9429 -1.31634e-06L15.9429 15.0571L23.8835 15.0571L31 15.0571L31 15.9429L15.9429 15.9429L15.9429 31L15.0571 31L15.0571 15.9429L6.23563e-06 15.9429L6.31306e-06 15.0571L15.0571 15.0571Z" fill="black"/>
+          <div tabindex="0" aria-label="Кнопка посмотреть больше" class="questions__list_item-svg">
+            <svg class="questions__list_item-plus" width="31" height="31" viewBox="0 0 31 31" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M15.0571 15.0571L15.0571 -1.31634e-06L15.9429 -1.31634e-06L15.9429 15.0571L23.8835 15.0571L31 15.0571L31 15.9429L15.9429 15.9429L15.9429 31L15.0571 31L15.0571 15.9429L6.23563e-06 15.9429L6.31306e-06 15.0571L15.0571 15.0571Z"
+                fill="black" />
             </svg>
           </div>
 
@@ -251,9 +261,12 @@
           <a href="#" class="questions__list-item-link ">
             Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?
           </a>
-          <div class="questions__list_item-svg">
-            <svg class="questions__list_item-plus" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0571 15.0571L15.0571 -1.31634e-06L15.9429 -1.31634e-06L15.9429 15.0571L23.8835 15.0571L31 15.0571L31 15.9429L15.9429 15.9429L15.9429 31L15.0571 31L15.0571 15.9429L6.23563e-06 15.9429L6.31306e-06 15.0571L15.0571 15.0571Z" fill="black"/>
+          <div tabindex="0" aria-label="Кнопка посмотреть больше" class="questions__list_item-svg">
+            <svg class="questions__list_item-plus" width="31" height="31" viewBox="0 0 31 31" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M15.0571 15.0571L15.0571 -1.31634e-06L15.9429 -1.31634e-06L15.9429 15.0571L23.8835 15.0571L31 15.0571L31 15.9429L15.9429 15.9429L15.9429 31L15.0571 31L15.0571 15.9429L6.23563e-06 15.9429L6.31306e-06 15.0571L15.0571 15.0571Z"
+                fill="black" />
             </svg>
           </div>
         </li>
@@ -261,9 +274,12 @@
           <a href="#" class="questions__list-item-link ">
             Могу ли я вернуть деньги на каком-либо из этапов работ?
           </a>
-          <div class="questions__list_item-svg">
-            <svg class="questions__list_item-plus" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0571 15.0571L15.0571 -1.31634e-06L15.9429 -1.31634e-06L15.9429 15.0571L23.8835 15.0571L31 15.0571L31 15.9429L15.9429 15.9429L15.9429 31L15.0571 31L15.0571 15.9429L6.23563e-06 15.9429L6.31306e-06 15.0571L15.0571 15.0571Z" fill="black"/>
+          <div tabindex="0" aria-label="Кнопка посмотреть больше" class="questions__list_item-svg">
+            <svg class="questions__list_item-plus" width="31" height="31" viewBox="0 0 31 31" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M15.0571 15.0571L15.0571 -1.31634e-06L15.9429 -1.31634e-06L15.9429 15.0571L23.8835 15.0571L31 15.0571L31 15.9429L15.9429 15.9429L15.9429 31L15.0571 31L15.0571 15.9429L6.23563e-06 15.9429L6.31306e-06 15.0571L15.0571 15.0571Z"
+                fill="black" />
             </svg>
           </div>
 
@@ -272,7 +288,7 @@
     </section>
   </main>
 
-  <footer class="footer ">
+  <footer aria-label="футер меню" class="footer ">
     <div class="footer__container container flex">
       <div class="footer__left">
         <div class="flex footer__left_img">
@@ -320,7 +336,7 @@
         <div class="footer__left_social">
           <ul class="social__list flex">
             <li class="list_reset social__list_item">
-              <a class="social__list_item-link" href="#">
+              <a aria-label="Кнопка социальная сеть фэусбук" class="social__list_item-link" href="#">
                 <svg class="social__list_item-link-svg" width="60" height="60" viewBox="0 0 60 60" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -329,7 +345,7 @@
               </a>
             </li>
             <li class="list_reset social__list_item">
-              <a class="social__list_item-link" href="#">
+              <a aria-label="Кнопка социальная сеть в контакте" class="social__list_item-link" href="#">
                 <svg class="social__list_item-link-svg" width="60" height="60" viewBox="0 0 60 60" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -348,14 +364,14 @@
         <div class="footer__center_survey">
           <ul class="survey">
             <li class="list_reset survey__item">
-              <input class="survey__item_input  survey__item_input-name" type="text" name="name"
+              <input aria-label="введите фамилию, имя и отчество" class="survey__item_input  survey__item_input-name" type="text" name="name"
                 placeholder="Фамилия, имя и отчество*">
             </li>
             <li class="list_reset survey__item">
-              <input class="survey__item_input survey__item_input-mail" type="text" placeholder="E-mail*">
+              <input aria-label="введите адрес почты" class="survey__item_input survey__item_input-mail" type="text" placeholder="E-mail*">
             </li>
             <li class="list_reset survey__item">
-              <input class="survey__item_input  survey__item_input-messages" type="text" placeholder="Сообщение">
+              <input aria-label="введите сообщение" class="survey__item_input  survey__item_input-messages" type="text" placeholder="Сообщение">
             </li>
           </ul>
         </div>
@@ -364,7 +380,7 @@
           <button class="btn_reset footer__center_bottom-btn">
             Отправить данные
           </button>
-          <label class="footer__center_checkbox">
+          <label tabindex="0" aria-label="кнопка согласие на обработку персональных данных" class="footer__center_checkbox">
             Согласен на&nbsp;обработку данных
             <input class="checkbox" type="checkbox">
             <span class=" checkmark"></span>

@@ -40,7 +40,7 @@ padding: 5px;
 transition: background-color 0.3s ease-in-out, outline 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.header__list_link::after{
+.header__list_item-link::after{
   content: '';
   position: absolute;
   bottom: -7px;
@@ -49,20 +49,20 @@ transition: background-color 0.3s ease-in-out, outline 0.3s ease-in-out, color 0
   height: 2px;
 }
 
-.header__list_link:hover::after{
+.header__list_item-link:hover::after{
   background-color: var(--orange);
 }
 
-.header__list_link:focus{
+.header__list_item-link:focus{
   outline: 2px solid var(--orange);
 }
 
-.header__list_link:active{
+.header__list_item-link:active{
 color: var(--dark_orange);
 outline: none;
 }
 
-.header__list_link:active::after{
+.header__list_item-link:active::after{
   background-color: var(--dark_orange);
 }
 

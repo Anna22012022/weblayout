@@ -40,13 +40,16 @@ font-weight: 700;
 }
 
 .calculation__div_btn:hover{
+
   background-color: var(--light_orange);
 }
 
 .calculation__div_btn:focus{
+  outline: 3px solid #E1670E;
   background-color: var(--light_orange);
 }
 
 .calculation__div_btn:active{
+
   background-color: var(--dark_orange);
 }

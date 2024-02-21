@@ -62,17 +62,18 @@ line-height: 20px;
   transition: background-color 0.3s ease, outline 0.3s ease;
 }
 
-.about-us__block_left_btn:hover{
+.about-us__block_left-btn:hover{
   background-color: var(--orange);
   outline: 3px solid var(--orange);
 }
 
-.about-us__block_left_btn:focus{
+.about-us__block_left-btn:focus{
+
   background-color: var(--orange);
   outline: 3px solid var(--orange);
 }
 
-.about-us__block_left_btn:active{
+.about-us__block_left-btn:active{
   background-color: var(--dark_orange);
   outline: 3px solid var(--dark_orange);
 }
